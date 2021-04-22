@@ -2,7 +2,7 @@ body{
   background-color: #eaefee;
 }
 
-#menu-principal{
+.menu-principal{
   overflow: auto;
   white-space: nowrap;
   margin: 0;
@@ -15,18 +15,18 @@ img{
   display: inline;
 }
 
-#menu-principal ul {
+.menu-principal ul {
   padding:0px;
   margin:0px;
   background-color:#EDEDED;
   list-style:none;
 }
 
-#menu-principal ul li{
+.menu-principal ul li{
   display: inline;
 }
 
-#menu-principal li a{
+.menu-principal li a{
   display: inline-block;
   padding: 2px 10px;
   background-color:#EDEDED;
@@ -36,7 +36,7 @@ img{
   text-transform: uppercase;
 }
 
-#menu-principal ul li a:hover {
+.menu-principal ul li a:hover {
   background-color:#D6D6D6;
   color: #6D6D6D;
   border-bottom:3px solid #a19623;
